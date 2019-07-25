@@ -1,7 +1,7 @@
 # FastWidget.js
 a mini fast UI framework of browser 
 
-##example
+## example
 ```
 <div id="panel_stat"></div>
 <script src="./fastwidget.js"></script>
@@ -34,7 +34,7 @@ table.show('panel_stat');
 
 </script>
 ```
-result:
+## result:
 ```
 <table class="table" border="1">
 	<caption>The Languages</caption>
