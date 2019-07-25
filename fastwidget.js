@@ -146,9 +146,7 @@ var FastWidget = (function() {
 	create_widget = function(name) {
 		var wgt = new Widget(name);
 		if (arguments.length > 1) {
-			for (var i = 1, len = arguments.length; i < len; i++) {
-				wgt.set(arguments[i]);
-			}
+			wgt.set.apply(wgt, [].slice.call(arguments, 1));
 		}
 		return wgt;
 	};
